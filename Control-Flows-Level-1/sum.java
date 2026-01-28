@@ -1,0 +1,17 @@
+import java.util.*;
+class sum
+{
+public static void main(String args[])
+{
+Scanner sc = new Scanner (System.in);
+double value = sc.nextDouble();
+double total=0.0;
+while(value != 0)
+{
+total = total+value;
+System.out.print("Enter again: ");
+value = sc.nextDouble();
+}
+System.out.println("Total = "+total);
+}
+}
