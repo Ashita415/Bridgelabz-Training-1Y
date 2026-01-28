@@ -1,0 +1,19 @@
+import java.util.*;
+class greatest_factor
+{
+public static void main(String args[])
+{
+Scanner sc = new Scanner(System.in);
+int n = sc.nextInt();
+int greatestfactor = 1;
+for(int i = n-1; i>=1;i--)
+{
+if(n%i==0)
+{
+greatestfactor=i;
+break;
+}
+}
+System.out.println("Greatest Factor is "+ greatestfactor);
+}
+}
