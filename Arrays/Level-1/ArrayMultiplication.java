@@ -1,0 +1,17 @@
+import java.util.*;
+class ArrayMultiplication
+{
+public static void main(String args[])
+{
+Scanner sc = new Scanner(System.in);
+int num = sc.nextInt();
+int multiplicationResult[] = new int [4];
+int index = 0;
+for(int i=6;i<=9;i++)
+{
+multiplicationResult[index] =num*i;
+System.out.println(num+ " * " +i+ " = " +multiplicationResult[index]);
+index++;
+}
+}
+}
